@@ -4,11 +4,11 @@ This repository aims to extract and collect data published by the [US Department
 
 Some examples of reports published include: 
 - [Public Housing Inspection Scores in a .xls file (Excel spreadsheet)]([https://www.hud.gov/program_offices/housing/mfh/rems/remsinspecscores/remsphysinspscores).
-	- def
+    - Last updated: February 2025
 - [Historical Physical Inspection Scores (w/ Location Info)](https://www.huduser.gov/portal/datasets/pis.html)
-	- def
+	- Last updated: March 2021
 - [Assorted HUD Multifamily Data](https://www.hud.gov/program_offices/housing/mfh/mfdata)
-	- def
+	- Last updated: February 2025
 
 Scripts download the original Excel spreadsheets, parse the files, and generate a JSONL, a file format where each line contains a JSON object. This file format allows for multiple overlapping datasets to be concatenated and deduped with simple text tools.
 
