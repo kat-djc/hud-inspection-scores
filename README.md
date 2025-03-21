@@ -49,7 +49,7 @@ These discrepancies can be traced all the way back to the original downloaded re
 
 To see all values and their origins within the output data itself (which can be handy to capture all the changes for a particular property over time), set `opt_keep_diffs=True` at the top of `hud2dlp.py`.
 
-### Misc. Notes on the Data
+### Notes on the Data
 - Rows that have `pha_name` (Public Housing Authority name) are from the public housing data; rows without `pha_name` are from the multifamily data.
 - The coding changed in 2020, so 80% of scores are non-numeric (like `69d*`).
 - `location_quality` is from HUD; it refers to the geocoding for (lat,long) coordinates, which may be quite far from the actual site.
